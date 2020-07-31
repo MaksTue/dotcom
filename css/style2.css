@@ -698,6 +698,7 @@ color: #6D7278;
 
     .section__team{
         background: #FAFAFA;
+        border-radius: 16px;
         max-height: 1036px;
     }
 

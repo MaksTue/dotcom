@@ -666,4 +666,55 @@ h1, h2, h3, h4, h5, h6 {
         letter-spacing: -0.0742858px;
     }
 
+
+    /* mobil__intro */
+
+    .intro__info{
+        text-align: left;
+        margin-bottom: 0;
+    }
+    .intro__info a{
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: -0.026095px;
+        text-decoration: none;
+        color: #1A8FE8;
+    }
+
+    .intro__item.second {
+        display: block; 
+        margin-top: 0;
+        width: 60%;
+    }
+
+    .intro__img {
+        margin: 14px 38px 34px 18px;
+        padding-top: 0;
+    } 
+
+    .intro__rew{
+        text-align: left;
+        margin: 0 0 15px 18px;
+    }
+    .intro__title{
+        margin: 21px 0 8px;
+        text-align: left;
+    }
+
+    .intro__column.second__column{
+        padding: 40px 0 15px;
+    }
+
+    .intro__button{
+        max-width: 220px;
+        height: 40px;
+        margin: 0;
+        padding: 13px 76px;
+        width:100%;
+        font-weight: 300;
+    }
+
+    .intro__button.second{
+        margin-top: 12px;
+    }
 }
