@@ -644,3 +644,184 @@ h1, h2, h3, h4, h5, h6 {
         padding: 28px;
     }
 }
+
+
+@media (max-width: 414px) {
+
+    .header__link{
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: -0.0520001px;
+    }
+    .header__logo{
+        display: none;
+    }
+
+    .intro__title{
+        font-size: 22px;
+        line-height: 26px;
+        letter-spacing: 0.446285px;
+    }
+
+    .intro__img {
+        display: block;
+        max-width: 120px;
+        height: auto;
+    }
+    .intro__rew {
+        font-size: 14px;
+        line-height: 15px;    
+        letter-spacing: 0.00184585px;
+    }
+
+    .intro__column.second__column.chengelog__intro__text{
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.473905px;
+
+color: #6D7278;
+    }
+    .intro__info{
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: -0.026095px;
+    }
+    .intro__button{
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.00210954px;
+    }
+
+    .intro__item {
+        padding: 0;
+    }
+
+    .section__team{
+        background: #FAFAFA;
+        max-height: 1036px;
+    }
+
+    .section__item.section__team {
+        width: auto;
+    }
+
+    .team__photo {
+        display: block;
+        max-width: 120px;
+    }
+
+    .team__item {
+        display: flex;
+        width: 100%;
+    }
+
+    .teams__name{
+        font-size: 16px;
+        line-height: 19px;
+        padding: 0 0 15px 0;
+        letter-spacing: -0.0594286px;
+        color: #000000;
+    }
+
+    .teams__prof{
+        height: auto;
+        font-size: 14px;
+        line-height: 16px;
+        padding-bottom: 8px;
+        letter-spacing: -0.0520001px;
+        color: #6D7278;
+    }
+
+    .teams__contatc{
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: -0.0520001px;
+        color: #007AFF;
+        padding-bottom: 0;
+    }
+
+    .teams__info{
+        padding: 27px;
+        text-align: left;
+    }
+
+
+    .section__title {
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: -0.0742858px;
+    }
+
+    .section__text {
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: -0.052px;
+    }
+
+    .section__footer__info{
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: -0.0668572px;
+    }
+
+    .arrow__img{
+        display: none;
+    }
+
+    .section__item.left__item {
+        width: 100%;
+    }
+
+    .section__colors {
+        padding: 12px 8px;
+    }
+
+    .section__item.left__item {
+        padding: 18px 10px;
+    }
+
+    .content__section.content__section__changelog{
+        display: flex;
+        flex-wrap: wrap;
+        background: #FAFAFA;
+        border-radius: 16px;
+    }
+
+    .section__item{
+        width: auto;
+        padding: 12px 18px 7px;
+    }
+    .section__img {
+        width: 49%;
+        margin: 0;
+    }
+
+    .content__section {
+        margin-top: 22px;
+    }
+
+    .content__section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section__img.personal__img {
+        width: 100%;
+    }
+
+    .footer__contact__link {
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: -0.0742858px;
+    }
+
+    .footer__year{
+        display: none;
+    }
+
+    .footer__scroll {
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: -0.0742858px;
+    }
+}
