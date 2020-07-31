@@ -824,4 +824,20 @@ color: #6D7278;
         line-height: 23px;
         letter-spacing: -0.0742858px;
     }
+
+    .section__item.section__progres__bar{
+        background: #FAFAFA;
+        border-radius: 16px;
+    }
+
+
+    .img__progres__bar {
+        width: 167px;
+    }
+
+    .spot__team{
+        display: none;
+    }
+
+
 }
