@@ -164,6 +164,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Intro */
+
+.intro__inner.intro__mobil{
+    display: none;
+}
+
+
 .intro{
     display: flex;
     width: 100%;
@@ -668,6 +674,13 @@ h1, h2, h3, h4, h5, h6 {
 
 
     /* mobil__intro */
+
+    .intro__inner{
+        display: none;
+    }
+    .intro__inner.intro__mobil{
+        display: flex;
+    }
 
     .intro__info{
         text-align: left;

@@ -878,4 +878,8 @@ h1, h2, h3, h4, h5, h6 {
         padding: 40px 0 15px;
     }
 
+    .intro__column.second__column {
+        height: 49%;
+    }
+
 }
