@@ -543,7 +543,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
 @media (max-width: 414px) {
 
     .header__link{
@@ -582,7 +581,6 @@ h1, h2, h3, h4, h5, h6 {
         line-height: 19px;
         letter-spacing: 0.00210954px;
     }
-
     .intro__item {
         padding: 0;
     }
@@ -599,44 +597,4 @@ h1, h2, h3, h4, h5, h6 {
         letter-spacing: -0.052px;
     }
 
-    .section__footer__info{
-        font-size: 18px;
-        line-height: 21px;
-        letter-spacing: -0.0668572px;
-    }
-
-    .arrow__img{
-        display: none;
-    }
-
-    .content__section.content__section__changelog {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .section__item.left__item {
-        width: 100%;
-    }
-
-    .section__colors {
-        padding: 12px 8px;
-    }
-
-    .section__item.left__item {
-        padding: 18px 10px;
-    }
-
-    .content__section.content__section__changelog{
-        background: #FAFAFA;
-        border-radius: 16px;
-    }
-
-    .section__item{
-        width: auto;
-        padding: 12px 18px 7px;
-    }
-    .section__img {
-        width: 49%;
-        margin: 0;
-    }
 }
