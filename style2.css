@@ -224,6 +224,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 26px;
     line-height: 1.15;
     margin-bottom: 79px;
+    font-weight: 500;
     color: rgba(0, 122, 255, 0.617024);
     font-weight: 300;
 }
@@ -750,6 +751,8 @@ h1, h2, h3, h4, h5, h6 {
     .teams__info{
         padding: 27px;
         text-align: left;
+        display: flex;
+        flex-wrap: wrap;
     }
 
 
@@ -896,4 +899,32 @@ h1, h2, h3, h4, h5, h6 {
         height: 49%;
     }
 
+}
+@media (max-width: 320px) {
+    .teams__info {
+        padding: 11px;
+    }
+    .teams__contatc {
+        font-size: 12px;
+    }
+    .teams__prof {
+        font-size: 14px;
+    }
+    .team__item img {
+        width: 90px!important;
+        height: auto!important;
+    }
+    .intro__img {
+        max-width: 100px;
+    }
+    .intro__info {
+        margin-top: 9px;
+        font-size: 13px;
+    }
+    .header__text {
+        display: flex;
+    }
+    .header__link {
+        margin: 0 10px;
+    }
 }
