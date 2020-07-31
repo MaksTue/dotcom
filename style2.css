@@ -651,7 +651,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-@media (max-width: 414px) {
+@media (max-width: 768px) {
 
     .header__link{
         font-size: 14px;
@@ -927,4 +927,13 @@ h1, h2, h3, h4, h5, h6 {
     .header__link {
         margin: 0 10px;
     }
+
+    .footer__scroll {
+        font-size: 16px;
+    }
+
+    .footer__contact__link {
+        font-size: 16px;
+    }
+
 }
